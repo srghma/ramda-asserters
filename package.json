@@ -1,6 +1,6 @@
 {
   "name": "ramda-asserters",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Collection of curried validators",
   "author": "BjornMelgaard",
   "license": "MIT",
@@ -40,25 +40,25 @@
     "asserters"
   ],
   "peerDependencies": {
-    "ramda": "^0.24.1",
-    "ramda-adjunct": "^1.17.0"
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^1.18.0"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.0",
-    "@types/ramda": "^0.24.9",
+    "@types/jest": "^21.1.2",
+    "@types/ramda": "^0.24.17",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-typescript": "^3.2.2",
     "husky": "^0.14.3",
-    "jest": "^21.1.0",
+    "jest": "^21.2.1",
     "lint-staged": "^4.2.3",
     "merge2": "^1.2.0",
-    "prettier": "^1.7.3",
-    "ts-jest": "^21.0.1",
+    "prettier": "^1.7.4",
+    "ts-jest": "^21.1.2",
     "tslint": "^5.7.0",
     "tslint-config-prettier": "^1.5.0",
     "tslint-config-standard": "^6.0.1",
-    "tslint-consistent-codestyle": "^1.6.0",
-    "typescript": "^2.5.2"
+    "tslint-consistent-codestyle": "^1.8.0",
+    "typescript": "^2.5.3"
   }
 }

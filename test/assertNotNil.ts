@@ -1,20 +1,22 @@
 import { assertNotNil } from '../src'
 
 describe('assert', () => {
-  it('throws if test fails', () => {
-    expect(() => {
-      assertNotNil(null)
-    }).toThrow('Got unexpected null')
+  const notNils = [[], {}, 1]
+  notNils.forEach((notNil: any) => {
+    it(`acts like identity for ${typeof notNil}`, () => {
+      expect(() => {
+        const returned = assertNotNil(notNil)
+        expect(returned).toBe(notNil)
+      }).not.toThrow()
+    })
   })
 
-  const nils = [null, undefined, NaN]
+  const nils = [null, undefined]
   nils.forEach((nil: any) => {
-    it(`acts like identity if not ${nil}`, () => {
-      const testedValue = 1
+    it(`throws if ${nil}`, () => {
       expect(() => {
-        const returned = assertNotNil(testedValue)
-        expect(returned).toBe(testedValue)
-      }).not.toThrow()
+        assertNotNil(nil)
+      }).toThrow(`Got unexpected ${nil}`)
     })
   })
 })

@@ -48,7 +48,7 @@
     "@types/ramda": "^0.25.0",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^2.6.1",
-    "gulp-typescript": "^3.2.2",
+    "gulp-typescript": "^4.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.2.3",

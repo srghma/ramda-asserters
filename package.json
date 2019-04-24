@@ -50,7 +50,7 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-typescript": "^4.0.0",
     "lint-staged": "^5.0.0",
-    "husky": "^1.0.0",
+    "husky": "^2.1.0",
     "jest": "^22.0.0",
     "merge2": "^1.2.0",
     "prettier": "^1.7.4",

@@ -46,7 +46,7 @@
   "devDependencies": {
     "@types/jest": "^23.1.2",
     "@types/ramda": "^0.25.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-typescript": "^4.0.0",
     "lint-staged": "^5.0.0",
